@@ -1,0 +1,40 @@
+@import './../../index.scss';
+
+.table-view {
+    text-align: left;
+    width: 97%;
+    border: 2px solid $primary-color-blue;
+
+    tr {
+        height: 45px;
+
+        td {
+            text-transform: capitalize;
+            border-top: 1.5px solid $line-color-grey;
+            color: $text-color-grey;
+        }
+    }
+
+    tr td, tr th {
+        padding-left: 5px;
+    }
+
+    &__header {
+
+        &--name {
+            width: 40%;            
+        }
+
+        &--country {
+            width: 30%;
+        }
+
+        &--birthday {
+            width: 30%;
+        }
+    }
+
+    &__content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+$background-color-grey: rgb(238, 238, 238);
+$background-color-green: rgb(223, 240, 216);
+$primary-color-blue: rgb(73, 135, 206);
+$text-color-grey: rgb(97, 97, 97);
+$line-color-grey: rgb(229, 229, 229);
+
+.row {
+    display: inline-flex;
+}
+
+.col-2-row {
+    width: 50%;
+    padding-top: 20px;
+    display: inline-flex;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: $background-color-grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

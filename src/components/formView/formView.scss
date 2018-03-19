@@ -1,0 +1,23 @@
+@import './../../index.scss';
+
+.form-view {
+    text-align: right;
+    padding-right: 40px;
+    
+    &__row {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    &__text {
+        min-height: 30px;
+        padding: 10px 20px 10px 20px;
+        margin: 50px 10px 75px;
+        color: $text-color-grey;
+    
+        &--complete {
+            @extend .form-view__text;
+            background-color: $background-color-green;
+        }
+    }
+}

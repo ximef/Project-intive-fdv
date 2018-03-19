@@ -1,0 +1,14 @@
+.link {
+    display: block;
+    font-size: small;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 15px;
+
+    &--top {
+        display: block;
+        font-size: smaller;
+        text-align: right;
+        margin-right: 15px;
+    }
+}

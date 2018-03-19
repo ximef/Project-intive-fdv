@@ -1,0 +1,18 @@
+webpackHotUpdate(0,{
+
+/***/ 314:
+/***/ (function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(80)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".col-2-row {\n  width: 50%;\n  display: flex;\n  position: relative; }\n  .col-2-row__left {\n    float: left; }\n  .col-2-row__right {\n    float: right; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  text-align: center;\n  background-color: #eeeeee;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.inputLabel {\n  width: 100%;\n  padding: 15px; }\n  .inputLabel__input {\n    padding: 3px;\n    height: 25px;\n    width: 200px;\n    border: #4987ce solid 2px;\n    color: #4987ce; }\n  .inputLabel__label {\n    color: #4987ce;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: 400; }\n  .inputLabel__col--left {\n    padding-left: 30px; }\n", ""]);
+
+	// exports
+
+
+/***/ })
+
+})
